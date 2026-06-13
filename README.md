@@ -11,8 +11,7 @@ Formulated a Binary Integer Programming model to optimally allocate manual fraud
 
 Built a dual-layer risk pipeline on 590,000+ transaction records, using an interpretable Logistic Regression model to extract structural fraud probabilities with clear statistical inference — achieving a 72.6% reduction in data memory footprint.
 
-[`Payment_Fraud_Optimization_Engine.ipynb`]
-
+[View notebook](Payment_Fraud_Optimization_Engine.ipynb)
 ---
 
 ## Supply Chain Network Optimization Model
@@ -22,7 +21,7 @@ Modeled a linear programming optimization engine across 500+ constraint variable
 
 Includes a Python dashboard to stress-test optimization outputs against demand volatility and support capital investment decisions.
 
-[`Supply_Chain_Optimization_Project.ipynb`]
+[View notebook](Supply_Chain_Optimization_Project.ipynb)
 
 ---
 
@@ -31,7 +30,7 @@ Includes a Python dashboard to stress-test optimization outputs against demand v
 
 Programmed a high-performance filtering mask to isolate the top 18% of viable spring configurations within a 5% precision tolerance, using matrix array manipulations to calculate parameter limits and simulate design viability under input volatility.
 
-[`Automated_Spring_Design_Program.ipynb`]
+[View notebook](Automated_Spring_Design_Program.ipynb)
 
 ---
 
