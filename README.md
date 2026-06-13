@@ -37,6 +37,3 @@ Programmed a high-performance filtering mask to isolate the top 18% of viable sp
 
 ## License
 MIT
-
-markdown[View notebook](Payment_Fraud_Optimization_Engine.ipynb)
-I left them as plain bracketed text in the draft — want me to rewrite with proper working links, matching whatever the final filenames end up being after you do the rename/cleanup?
