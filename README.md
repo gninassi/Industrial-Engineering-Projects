@@ -7,11 +7,12 @@ A collection of quantitative optimization and risk modeling projects applying op
 ## Payment Fraud Optimization Engine
 **Tools:** Python, PuLP, NumPy
 
-Formulated a Binary Integer Programming model to optimally allocate manual fraud review resources under a strict 10-hour daily labor constraint, preventing $17,248 in fraud losses over a 5-day window.
+Built a real-time transaction risk-decisioning framework on 590,000+ records, using an interpretable Logistic Regression model to score fraud probability per transaction with clear statistical inference — achieving a 72.6% reduction in data memory footprint to support low-latency scoring.
 
-Built a dual-layer risk pipeline on 590,000+ transaction records, using an interpretable Logistic Regression model to extract structural fraud probabilities with clear statistical inference — achieving a 72.6% reduction in data memory footprint.
+Formulated a Binary Integer Programming model to optimize approve/flag decisioning under a fixed review-capacity constraint (10 hours of manual review per day), preventing $17,248 in fraud losses over a 5-day window while operating within throughput limits.
 
 [View notebook](Payment_Fraud_Optimization_Engine.ipynb)
+
 ---
 
 ## Supply Chain Network Optimization Model
