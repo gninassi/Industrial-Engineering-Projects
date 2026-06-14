@@ -11,6 +11,12 @@ Built a real-time transaction risk-decisioning framework on 590,000+ records, us
 
 Formulated a Binary Integer Programming model to optimize approve/flag decisioning under a fixed review-capacity constraint (10 hours of manual review per day), preventing $17,248 in fraud losses over a 5-day window while operating within throughput limits.
 
+*Note: Built and validated at 590,000+ record scale. The scoring and decisioning architecture 
+is designed to generalize to higher-volume streaming contexts — in a production environment, 
+the per-transaction logistic regression scoring function would integrate with a real-time 
+stream processing layer (e.g., Kafka/Flink) with the BIP threshold optimization running on 
+rolling capacity windows rather than daily batches.*
+
 [View notebook](Payment_Fraud_Optimization_Engine.ipynb)
 
 ---
