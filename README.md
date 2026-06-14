@@ -11,6 +11,11 @@ Built a real-time transaction risk-decisioning framework on 590,000+ records, us
 
 Formulated a Binary Integer Programming model to optimize approve/flag decisioning under a fixed review-capacity constraint (10 hours of manual review per day), preventing $17,248 in fraud losses over a 5-day window while operating within throughput limits.
 
+Designed a real-time streaming simulation processing 118,534 transactions 
+sequentially at 82 transactions/minute, dynamically ranking fraud risk scores 
+to flag the top 3% for review while modeling review queue depth against analyst 
+capacity constraints — demonstrating throughput-aware decisioning logic at scale.
+
 *Note: Built and validated at 590,000+ record scale. The scoring and decisioning architecture 
 is designed to generalize to higher-volume streaming contexts — in a production environment, 
 the per-transaction logistic regression scoring function would integrate with a real-time 
